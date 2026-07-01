@@ -3,6 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ===== META PIXEL (Radar Contabil) — trocar 897056869674770 pelo ID real e re-subir a landing ===== -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '897056869674770');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=897056869674770&ev=PageView&noscript=1"/></noscript>
+<!-- ===== FIM META PIXEL ===== -->
 <title>Radar Cont&#225;bil &#8212; Pare de correr atr&#225;s de toda IA nova</title>
 <meta name="description" content="A assinatura que entrega, toda semana, a IA e as novidades que importam pro seu escrit&#243;rio de contabilidade &#8212; mastigadas e prontas pra usar.">
 <style>
@@ -124,6 +140,15 @@
   Radar Cont&#225;bil &#183; IA e novidades pra contabilidade, toda semana.<br>
   Pagamento seguro processado pela Cakto.
 </footer>
+
+<script>
+  // Rastreia intencao de compra: dispara ao clicar em qualquer CTA (ativo quando o Pixel tiver ID real)
+  document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll('a.btn').forEach(function(a){
+      a.addEventListener('click', function(){ if(window.fbq){ fbq('track','InitiateCheckout'); } });
+    });
+  });
+</script>
 
 </body>
 </html>
